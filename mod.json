@@ -1,0 +1,23 @@
+{
+  "geode": "4.6.3",
+  "gd": { "win": "2.2081" },
+  "id": "yourname.click-align",
+  "name": "Click Align",
+  "version": "v1.0.0",
+  "developer": "YourName",
+  "description": "Delays inputs by 1/2/4/8/16 physics frames so early clicks line up.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Enabled",
+      "default": true
+    },
+    "frames": {
+      "type": "string",
+      "name": "Frame delay",
+      "description": "How many physics frames to hold each click.",
+      "default": "2",
+      "one-of": ["1", "2", "4", "8", "16"]
+    }
+  }
+}
